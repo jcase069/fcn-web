@@ -1,0 +1,65 @@
+/* CityDesk default style sheet */
+
+
+/* Basic HTML Element Style */
+body {
+	background-color: #000000;
+	/*
+	font: 11px/16px verdana, tahoma, arial, sans-serif;
+	text-align: center; */
+}
+
+h1 {
+	font: italic 32px georgia, 'times new roman', sans-serif;
+	margin: 0px;
+}
+h2 {
+	font: bold 10px verdana, tahoma, arial, sans-serif;
+	padding: 0 0 10px 0;
+	margin: 0 0 15px 0;
+	border-bottom: double 4px #078;
+}
+h3 {
+	font: 18px georgia, 'times new roman', sans-serif;
+}
+h4, h5 {
+	font: italic normal 11px verdana, tahoma, arial, sans-serif;
+	margin: 0px;
+}
+
+/*Structural elements */
+#container {
+	width: 550px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#sidebar {
+	width: 180px;
+	padding: 0 5px 0 5px;
+	margin: 0 0 10px 10px;
+	border: double 4px #808080;
+	background-color: #99670E;
+	float: right;
+}
+
+#navList {
+	list-style-type: none;
+	margin-top: 30px;
+	padding: 0;
+	border-top: solid 1px #078;
+	text-align: right;
+}
+
+/* text effects */
+em.title {
+	text-decoration: underline;
+}
+#articleList p {
+	margin: 0 0 25px 0;
+}
+#articleList h3 {
+	font: 13px verdana, tahoma, arial, sans-serif;
+	margin: 0px;
+}
